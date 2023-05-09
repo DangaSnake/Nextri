@@ -1,0 +1,119 @@
+.card {
+    background-color: #f6f6f6;
+    height: 64vh;
+    width: 80%;
+    margin: 60px auto;
+    padding: 60px;
+}
+
+.see-all-button {
+    background-color: #86ae6e;
+    font-size: 16px;
+    border: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    transition: transform .2s ease-in-out;
+}
+
+.see-all-button:hover {
+    background-color: #bbd5ab;
+    transform: translateX(5px);
+    cursor: pointer;
+}
+
+.title-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-bar h2 {
+    font-size: 34px;
+    margin: 0;
+}
+
+.grid {
+    margin-top: 20px;
+    display: grid;
+    height: 90%;
+    width: 100%;
+    grid-template-columns: .6fr 1fr 1fr; /* change to equal-width columns */
+    grid-template-rows: repeat(2, 1fr); 
+    gap: 20px;
+    grid-auto-rows: minmax(0, 1fr); /* set minimum row height */
+    grid-auto-columns: minmax(0, 1fr); 
+}
+
+.grid-card {
+    height: 100%;
+    background-color: white;
+    border-radius: 25px;
+    width: 100%;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.grid > :first-child {
+    grid-row: 1 / 3;
+
+}
+
+.grid > :nth-child(2) {
+    grid-column: 2 / 4;
+
+}
+
+.grid-button {
+    background-color: black;
+    font-size: 16px;
+    border: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    z-index: 1;
+    transition: transform .2s ease-in-out;
+}
+
+.grid-button:hover {
+    background-color: rgb(88, 86, 86);
+    transform: translateX(5px);
+    cursor: pointer;
+}
+
+.grid-image {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.hat {
+    width: 220px;
+    height: 200px;
+    margin: auto;
+    bottom: unset;
+}
+
+.shoe {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    bottom: unset;
+}
+
+.pants {
+    width: 60%;
+    height: 100%;
+}

@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.intro-section {
+    width: 100%;
+    height: 64vh;
+    margin: 60px 0 0px 75px;
+    display: grid;
+    grid-template-columns: 62% 38%;
+    overflow: hidden;
+}
+
+.intro-header {
+    font-size: 82px;
+    width: 80%;
+    white-space: pre-wrap;
+    margin: 0;
+}
+
+.reebok-icon {
+    transform: scale(.55);
+    position: relative;
+    bottom: 7px;
+}
+
+
+
+.brand-icon-box img {
+    width: 74px;
+    height: 64px;
+}
+
+.shop-now-button {
+    margin: 20px 0px;
+    background-color: #86ae6e;
+    font-size: 20px;
+    border: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    padding: 15px 30px 15px 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    transition: transform .2s ease-in-out;
+}
+
+.shop-now-button:hover {
+    background-color: #bbd5ab;
+    transform: translateX(5px);
+}
+
+.brand-icon-title {
+    color: rgb(151, 149, 149);
+    font-weight: 400;
+}
+
+.card {
+    height: 85%;
+    width: 70%;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+
+}
+
+.card-image {
+    height: 90%;
+}
+
+.card-heart-button {
+    background: white;
+    border-radius: 100%;
+    border: none;
+    padding: 5px 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+
+.card-heart-button svg {
+    position: relative;
+    top: 1px;
+    right: 0px;
+    height: 20px;
+    width: 20px;
+}
+
+.card-holder {
+    position: relative;
+    height: 100%;
+    width: 30vw;
+}
+
+.card-details {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 66% 34%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "item price"
+    "company price"
+    ;
+}
+
+.product-price {
+    grid-area: price;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.product-name {
+    margin: 0px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.company-name {
+    margin: 0px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.intro-right-side {
+    display: flex;
+    max-height: 64vh;
+}
+
+.next-card-image {
+    height: 90%;
+}
+
+.next-card {
+    height: 72%;
+    width: 70%;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.next-card-holder {
+
+    height: 100%;
+    width: 30vw;
+}
+
+.next-card-section {
+    position: absolute;
+    right: -20vw;
+    height: 64vh;
+    display: flex;
+    width: fit-content;
+    
+}
+
+.forward-back-button-holder {
+    z-index: 1;
+    width: 7vw;
+    height: 6vh;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+}
+
+.forward-back-button-holder button {
+    background-color: transparent;
+    border-radius: 100%;
+    border: none;
+}
+
+.flipped-button {
+    transform: rotate(180deg);
+}

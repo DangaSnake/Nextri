@@ -1,0 +1,84 @@
+.section {
+    height: 20vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-template-rows: 100%;
+}
+
+.title-section {
+ color: white;
+ margin: 20px 0px 0px 20px;
+}
+
+.title {
+    font-size: 28px;
+}
+
+.tagline {
+    margin-top: 0px;
+    width: 60%;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.links-section {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.link-column > li:hover {
+    text-decoration: underline;
+}
+
+.link-column {
+    margin: auto;
+    height: 80%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.signup-section {
+    color: white;
+    margin: 20px 80px 0px auto;
+}
+
+.mail-list-text {
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.email {
+    background: transparent;
+    color: white;
+    border: none;
+    padding-bottom: 5px;
+    outline: none;
+
+}
+
+.email-input-holder {
+    border-bottom: 1px solid grey;
+    display: flex;
+}
+
+.logo {
+    width: 40px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.title-logo-holder {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.arrow {
+    width: 10px;
+    height: 10px;
+}
+

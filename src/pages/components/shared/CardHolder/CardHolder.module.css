@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.card-holder {
+    position: relative;
+    height: 100%;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    height: 85%;
+    width: 75%;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+
+}
+
+.card-holder:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    height: 100%;
+}
+
+.card-heart-button {
+    background: white;
+    border-radius: 100%;
+    border: none;
+    padding: 5px 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+
+.card-heart-button svg {
+    position: relative;
+    top: 1px;
+    right: 0px;
+    height: 20px;
+    width: 20px;
+}
+
+
+.card-details {
+    margin-top: 10px;
+    display: grid;
+    width: 75%;
+    grid-template-columns: 66% 34%;
+    grid-template-areas:
+        "item price"
+        "company price"
+    ;
+}
+
+.product-price {
+    grid-area: price;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.product-name {
+    margin: 0px;
+    font-size: 16px;
+}
+
+.company-name {
+    margin: 0px;
+    font-size: 16px;
+
+}

@@ -1,0 +1,21 @@
+.svg {
+    width: 17px;
+    height: 17px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.svg:hover {
+    transform: scale(1.2);
+}
+
+.path {
+    transform: scale(.7);
+    cursor: pointer;
+}
+
+.arrow {
+    transform: rotate(90deg);
+    position: relative;
+    left: 5px;
+}
