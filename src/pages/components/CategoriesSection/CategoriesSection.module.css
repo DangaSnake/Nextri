@@ -58,6 +58,8 @@
     place-items: center;
 }
 
+
+
 .grid > :first-child {
     grid-row: 1 / 3;
 

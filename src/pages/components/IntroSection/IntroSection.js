@@ -64,7 +64,7 @@ const IntroSection = () => {
 
     return (
         <section className={styles["intro-section"]}>
-            <div>
+            <div className={styles["intro-left-side"]}>
                 <h2 className={styles["intro-header"]}>Elevate your <br />style with the<br />latest streetware</h2>
                 <button className={styles["shop-now-button"]}>Shop Now <ArrowIcon color="white" /></button>
                 <h3 className={styles["brand-icon-title"]}>Brand Partners</h3>
