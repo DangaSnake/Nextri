@@ -37,7 +37,6 @@ const ProductSection = () => {
                 {/* <button className={styles.button}>All</button>
                 <button className={styles["button-off"]}>T-Shirt</button> */}
                 {buttonArray.map((buttonText, index) => {
-                    console.log(buttonText, selectedButton);
                     return (
                     <button key={index} onClick={() => setSelectedButton(buttonText)} className={classNames(styles.button, buttonText != selectedButton && styles["button-off"] )}>{buttonText}</button>)
                 })}

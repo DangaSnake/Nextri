@@ -1,14 +1,17 @@
 .section {
     height: 20vh;
+    overflow: hidden;
     background-color: black;
     display: grid;
-    grid-template-columns: 35% 35% 30%;
+    grid-template-columns: 37% 35% 28%;
     grid-template-rows: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .title-section {
  color: white;
- margin: 20px 0px 0px 20px;
+ margin: 10px 0px 20px 0px;
 }
 
 .title {
@@ -43,7 +46,7 @@
 
 .signup-section {
     color: white;
-    margin: 20px 80px 0px auto;
+    margin: 20px 0px 0px auto;
 }
 
 .mail-list-text {
